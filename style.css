@@ -549,7 +549,13 @@ a.btn:active,
   text-align: center;
 }
 
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 
+}
 
 /* Skills  */
 
@@ -627,7 +633,7 @@ a.btn:active,
 .wrapper{
   position: relative;
   font-family: sans-serif;
-  min-height: 100vh;
+  height: 60vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -646,7 +652,7 @@ a.btn:active,
 
 .skillcontent{
   position: relative;
-  width: 300px;
+  width: 400px;
   padding: 20px;
   margin: 20px;
   display: flex;
@@ -792,9 +798,15 @@ a.btn:active,
 
 .contact-center{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  
   gap: 3rem;
-  color:white;
+  color: black;
+  background-color: white;
+  height: 50vh;
+  width: 80vw;
+  padding: 40px;
+
+
 }
 
 .left h2{
@@ -856,9 +868,12 @@ border: 1px solid #ccc;
 }
 
 
+
+
 @media only screen and (max-width: 768px){
   .contact-center{
     grid-template-columns: 1fr;
+
   }
 
   .contact-center .left{

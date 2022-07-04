@@ -305,7 +305,7 @@ li {
 }
 
 .icons span {
-  font-size: 2rem;
+  font-size: 4rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
 }

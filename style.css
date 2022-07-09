@@ -633,7 +633,7 @@ a.btn:active,
 .wrapper{
   position: relative;
   font-family: sans-serif;
-  height: 60vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -761,10 +761,18 @@ a.btn:active,
 }
 .blog-box .content h4 {
   font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
   color: #ddd;
 }
+
+.blog-box .content h3 {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #aaa;
+}
+
 
 .blog-box .content p {
   color: #aaa;
@@ -778,6 +786,7 @@ a.btn:active,
   color: var(--customColor);
   border-bottom: 2px solid var(--customColor);
 }
+
 
 
 @media only screen and (max-width: 768px) {
